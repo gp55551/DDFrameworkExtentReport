@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="OS" value="Windows"/>
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="MyNew.tests.AppTest">
+        <methods>
+          <include name="testCase2"/>
+          <include name="testAppstart"/>
+          <include name="testCase3"/>
+          <include name="testAppendT"/>
+          <include name="testAppendM"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- MyNew.tests.AppTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

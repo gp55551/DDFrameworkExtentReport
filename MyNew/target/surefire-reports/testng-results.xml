@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-21T17:06:29Z" name="Suite" finished-at="2020-06-21T17:06:31Z" duration-ms="1069">
+    <groups>
+    </groups>
+    <test started-at="2020-06-21T17:06:29Z" name="Test" finished-at="2020-06-21T17:06:31Z" duration-ms="1069">
+      <class name="MyNew.tests.AppTest">
+        <test-method is-config="true" signature="testAppstart()[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:29Z" name="testAppstart" finished-at="2020-06-21T17:06:30Z" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppstart -->
+        <test-method is-config="true" signature="testAppstart()[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testAppstart" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppstart -->
+        <test-method signature="testCase1()[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:30Z" name="testCase1" finished-at="2020-06-21T17:06:30Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="testAppendM(org.testng.ITestResult)[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:30Z" name="testAppendM" finished-at="2020-06-21T17:06:30Z" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase1 status=SUCCESS method=AppTest.testCase1()[pri:0, instance:MyNew.tests.AppTest@4bf48f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendM -->
+        <test-method is-config="true" signature="testAppendM(org.testng.ITestResult)[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:30Z" name="testAppendM" finished-at="2020-06-21T17:06:30Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase2 status=SUCCESS method=AppTest.testCase2()[pri:0, instance:MyNew.tests.AppTest@4bf48f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendM -->
+        <test-method signature="testCase2()[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:30Z" name="testCase2" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:30Z" name="testCase3" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="testAppendM(org.testng.ITestResult)[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:30Z" name="testAppendM" finished-at="2020-06-21T17:06:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase3 status=SUCCESS method=AppTest.testCase3()[pri:0, instance:MyNew.tests.AppTest@4bf48f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendM -->
+        <test-method is-config="true" signature="testAppendT()[pri:0, instance:MyNew.tests.AppTest@4bf48f6]" started-at="2020-06-21T17:06:30Z" name="testAppendT" finished-at="2020-06-21T17:06:30Z" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendT -->
+        <test-method is-config="true" signature="testAppendT()[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testAppendT" finished-at="2020-06-21T17:06:31Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendT -->
+      </class> <!-- MyNew.tests.AppTest -->
+      <class name="MyNew.tests.AppTest2">
+        <test-method signature="testApp()[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testApp" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="testAppendM(org.testng.ITestResult)[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testAppendM" finished-at="2020-06-21T17:06:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testApp status=SUCCESS method=AppTest2.testApp()[pri:0, instance:MyNew.tests.AppTest2@420a85c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendM -->
+        <test-method signature="testCase2()[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testCase2" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="testAppendM(org.testng.ITestResult)[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testAppendM" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase2 status=SUCCESS method=AppTest2.testCase2()[pri:0, instance:MyNew.tests.AppTest2@420a85c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendM -->
+        <test-method signature="testCase3()[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testCase3" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="testAppendM(org.testng.ITestResult)[pri:0, instance:MyNew.tests.AppTest2@420a85c4]" started-at="2020-06-21T17:06:30Z" name="testAppendM" finished-at="2020-06-21T17:06:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase3 status=SUCCESS method=AppTest2.testCase3()[pri:0, instance:MyNew.tests.AppTest2@420a85c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppendM -->
+      </class> <!-- MyNew.tests.AppTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
